@@ -33,7 +33,7 @@
         don't overflow the page width
       */
       img {
-        width: 100%;
+        width: 50%;
         display: square;
         margin: 0 block;
         align-items: center;
@@ -75,7 +75,7 @@
 <header>
   <h2>Apple Inc.</h1>
 
-  <img src="./apple.png">
+  <img src="./apple.png" length="50" height="200">
 
 
 <nav>
@@ -141,7 +141,7 @@
         </ul>
         </li>
 
-        <img src="./macbook.jpg">
+        <img src="./book.jpg">
         <img src="./mac.webp">
 
         <li>Apple Watch
@@ -150,7 +150,7 @@
         </ul>
       </li>
 
-      <img src="./watch.jpg">
+      <img src="./applewatch.jpg">
 
 
       <li>iPod
@@ -160,7 +160,7 @@
       </li>
     </ul>
 
-    <img src="./ipod.jpg">
+    <img src="./pod.webp">
   </section>
 
   <section>
@@ -246,9 +246,9 @@
 
 
   <section>
-    <h2 id="purchase">Purchase Form</h2>
+    <h2 id="form">Purchase Form</h2>
 
-    <p> if you would like to purchase one, fill up this form below </p>
+    <p> Looking to purchase one? fill out this form below </p>
 
     <form>
       <fieldset>
@@ -266,32 +266,51 @@
 
 
         <fieldset>
-          <legend></legend>Bank Info:</legend>
-          <label for="product model" id="product model" name="product model"
-        
+          <legend>Select Payment Method:</legend>
+          <label for="Credit/Debit Card">Credit/Debit Card </label>
+          <input
+            type="radio"
+            id="method 1"
+            name="method"
+            value="Credit"
+            required  />
+         
+          <label for="suggestion">Paypal</label>
+          <input
+            type="radio"
+            id="method 2"
+            name="method"
+            value="Paypal" />
+        </fieldset>
 
+        <fieldset>
+          <legend>Select Product:</legend>
+          <label for="select">Product Type</label>
+          <select id="select" name="select" required>
+            <option value="select">Select</option>
+            <option value="iPhone 14 Pro">iPhone 14 Pro</option>
+            <option value="iPad Pro">iPad Pro</option>
+            <option value="Macbook Pro">Macbook Pro</option>
+            <option value="Apple watch 7">Apple Watch Series 7</option>
+            <option value="iPod touch">iPod touch</option>
+          </select>
+        </fieldset>
 
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
+        <fieldset>
+          <legend>Select Color:</legend>
+          <label for="color">Color</label>
+          <select id="color" id="color" name="color" required>
+          <option value="White">Select</option>
+          <option value="White">White</option>
+          <option value="White">Black</option>
+          <option value="White">Blue</option>
+          <option value="White">Red</option>
+          </select>
+        </fieldset>
     
+        <input type="submit" value="Submit Purchase">
     </form>
-
-
-</main>
+    </main>
 
 
 
@@ -312,6 +331,9 @@
   <li><a href="#">Home</a></li>
   <li><a href="#">About us</a></li>
   <li><a href="#">Contact</a></li>
+
+  <p> If you would to see more look at the Offical Apple page</p>
+  <a href="https://www.apple.com/ca/store?afid=p238%7CsEnMtlDRF-dc_mtid_1870765e38482_pcrid_675586750318_pgrid_39429562932_pntwk_g_pchan__pexid__&cid=aos-ca-kwGO-brand--slid---product-">Apple Website</a>
 </footer>
 
 
