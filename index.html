@@ -2,7 +2,7 @@
 <html lang="en-ca">
   <head>
     <!-- Set the page title -->
-    <title>Assignment 01 - To Be Completed</title>
+    <title>Assignment 1</title>
 
     <!-- Set the charset we're using to UTF-8 -->
     <meta charset="UTF-8" />
@@ -27,25 +27,44 @@
         font-family: Arial, Helvetica, sans-serif;
         font-size: 1.2rem;
         line-height: 1.6;
+        
       }
       /*
         These styles make sure that any super wide images
         don't overflow the page width
       */
       img {
-        width: 100%;
+        width: 50%;
         display: block;
         margin: 0 auto;
+
       }
+
+
+      table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 5px 0;
+        }
+
+        th, td {
+           
+            padding: 12px;
+            text-align: left;
+            
+        }
     </style>
   </head>
   <body>
+ 
     <!--
 
       LIST ANY CITATIONS HERE
 
-        * A
-        * B
+        * all the word texts are from chatGPT minus the table and the footer
+        * images are from 
+        * Apple Store Online. Apple (CA). (n.d.). 
+        https://www.apple.com/ca/store?afid=p238%7CsEnMtlDRF-dc_mtid_1870765e38482_pcrid_675586750318_pgrid_39429562932_pntwk_g_pchan__pexid__&amp;cid=aos-ca-kwGO-brand--slid---product- 
 
     -->
 
@@ -55,6 +74,276 @@
 
     -->
 
-    <h1>Assignment 01 - To Be Completed</h1>
-  </body>
+
+<header>
+  <h2>Apple Inc.</h2>
+
+  <img src="./images/apple.png" alt="apple logo" >
+
+
+<nav>
+  <h2>Apple Menu</h2>
+  <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About us</a> </li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+
+<main>
+  <h1>About Apple Inc</h1>
+  <img src="./images/logo.png" alt="Apple Logo"> 
+  <section>
+    <h2> Table of Contents</h2>
+    <ul>
+      <li><a href="#mainidea">Introduction</a></li>
+      <li><a href="#products"> Products</a></li>
+      <li><a href="#software"> Software</a></li>
+      <li><a href="#services"> Services</a></li>
+      <li><a href=#prices> Product Prices</a></li>
+      <li><a href=#form> Purchase Form</a></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2 id="mainidea">Introduction</h2>
+    
+  <p>Apple Inc. is a global technology giant headquartered in Cupertino, California. Founded in 1976, it is renowned for its innovation and iconic product lineup, spanning consumer electronics, software, and services. Apple has consistently shaped the tech industry and consumer culture with its cutting-edge designs and user-friendly interfaces.</p>
+  </section>
+
+  <section>
+    <h2 id="products">Products</h2>
+    <p>Apple offers a diverse range of products, including:</p>
+
+      <ul>
+      <li>iPhone
+        <ul>
+            <li>The flagship smartphone series known for its powerful performance and cutting-edge features.</li>
+      </ul> 
+      <img src="./images/phones.webp" alt="iPhone" >
+      </li>
+        <li>iPad
+        <ul>
+          <li>A line of versatile tablets, ideal for both work and entertainment.</li>
+        </ul>
+        <img src="./images/ipad-air-2022-roundup-header.webp" alt="iPad" >
+      </li>
+        <li>Macintosh Computers 
+        <ul>
+            <li>Including the MacBook, iMac, and Mac Pro, known for their sleek design and performance.</li>
+
+        </ul>
+        <img src="./images/book.jpg" alt="MacBook">
+       
+        <img src="./images/mac.webp" alt="iMac">
+       </li>
+
+      
+
+        <li>Apple Watch
+        <ul>
+            <li>A smartwatch series that focuses on health and fitness tracking.</li>
+        </ul>  
+      <img src="./images/applewatch.jpg" alt="Apple Watch">
+      </li>
+
+
+
+      <li>iPod
+        <ul>
+        <li>Portable media players, including the iPod Touch, for music and entertainment.</li>
+     </ul>
+     <img src="./images/pod.webp" alt="iPod Touch">
+    </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2 id="software">Software</h2>
+    <p>Apple develops its own operating systems and software, including:</p>
+
+    <ul>
+      <li>macOS</li>
+      <li>iOS</li>
+      <li>watchOS</li>
+      <li>tvOS</li>
+      <li>Safari</li>
+      <li>App Store</li>
+      <li>iTunes</li>
+   </ul>
+</section>
+
+
+  <section>
+    <h2 id="services">Services</h2>
+
+    <p>Apple provides a variety of online services,such as:</p>
+
+    <ul>
+      <li>iCloud</li>
+      <li>Apple Music</li>
+      <li>Apple TV+</li>
+      <li>App store</li>
+      <li>Apple Pay</li>
+      <li>Apple care</li>
+      <li>Apple Fitness+</li>
+    </ul>
+  </section>
+
+  
+
+  <section>
+    <h2 id="prices">Product Prices</h2>
+
+    <table>
+    <thead>
+      <tr>
+          <th>Product</th>
+          <th>Colors</th>
+          <th>Price</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+          <td>iPhone 14 Pro</td>
+          <td>White, Black, Red, Blue</td>
+          <td>$999</td>
+      </tr>
+
+      <tr>
+          <td>iPad Pro</td>
+          <td> White, Black, Red, Blue</td>
+          <td>$799</td>
+      </tr>
+
+      <tr>
+          <td>MacBook Pro</td>
+          <td> White, Black, Red, Blue</td>
+          <td>$1999</td>
+      </tr>
+
+      <tr>
+          <td>Apple Watch Series 7</td>
+          <td> White, Black, Red, Blue</td>
+          <td>$399</td>
+      </tr>
+
+      <tr>
+          <td>iPod touch</td>
+          <td> White, Black, Red, Blue</td>
+          <td>$199</td>
+      </tr>
+        </tbody>
+      </table>
+    </section>
+
+
+
+  <section>
+    <h2 id="form">Purchase Form</h2>
+
+    <p> Looking to purchase one? fill out this form below </p>
+
+    <form>
+      <fieldset>
+        <legend>Personal Information:</legend>
+
+        <label for="name">Name </label>
+        <input type="text" id="name" name="name" autocomplete="name" required />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" autocomplete="email" required />
+
+        <label for="phone">Phone</label>
+        <input type="tel" id="phone" name="phone" autocomplete="tel" required />
+        </fieldset>
+
+
+        <fieldset>
+          <legend>Select Payment Method:</legend>
+          <label for="credit-card">Credit/Debit Card </label>
+          <input
+            type="radio"
+            id="credit-card"
+            name="payment-method"
+            value="Credit"
+            required  />
+         
+          <label for="paypal">Paypal</label>
+          <input
+            type="radio"
+            id="paypal"
+            name="payment-method"
+            value="Paypal" />
+        </fieldset>
+
+        <fieldset>
+          <legend>Select Product:</legend>
+          <label for="product-type">Product Type</label>
+          <select id="product-type" name="product-type" required>
+            <option value="choose">--Choose--</option>
+            <option value="iPhone 14 Pro">iPhone 14 Pro</option>
+            <option value="iPad Pro">iPad Pro</option>
+            <option value="Macbook Pro">Macbook Pro</option>
+            <option value="Apple watch 7">Apple Watch Series 7</option>
+            <option value="iPod touch">iPod touch</option>
+          </select>
+        </fieldset>
+
+        <fieldset>
+          <legend>Select Color:</legend>
+          <label for="color">Color</label>
+          <select id="color" name="color" required>
+          <option value="select">--Select--</option>
+          <option value="White">White</option>
+          <option value="Black">Black</option>
+          <option value="Blue">Blue</option>
+          <option value="Red">Red</option>
+         </select> 
+         <input type="submit" value="Submit Purchase">
+          </fieldset> 
+          </form>
+        </section>
+        </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <footer>
+     <h2>Apple Inc.</h2>
+     
+     <img src="./images/apple.png" alt="Apple logo">
+  
+     <nav>
+        <h3> Menu</h3>
+  
+      <ul>
+          <li><a href="#">Home</a></li>
+         <li><a href="#">Introduction</a></li>
+         <li><a href="#">Purchase Form</a></li>
+     </ul>
+  </nav>
+
+  <p> If you would to see more, look at the Offical Apple page</p>
+  <a href="https://www.apple.com/ca/store?afid=p238%7CsEnMtlDRF-dc_mtid_1870765e38482_pcrid_675586750318_pgrid_39429562932_pntwk_g_pchan__pexid__&cid=aos-ca-kwGO-brand--slid---product-"> Offical Apple </a>
+</footer>
+
+
+<p>&copy; 2023 Apple Inc.</p>
+</body>
 </html>
